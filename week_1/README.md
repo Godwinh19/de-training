@@ -85,6 +85,14 @@ docker run -it \
       --data_size=10000
 ```
 
+## docker-compose
+With docker-compose, we can run services using one file yaml file `docker-compose.yaml`.
+After this file configured, we start and stop services with these commands: 
+```bash
+docker-compose up or docker-compose up -d
+docker-compose down
+```
+
 
 ## Tips
 
